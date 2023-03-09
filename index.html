@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="pt" class="no-js">
+  
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <title>Kelven Bulha - Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="Kelven Bulha - Portfolio" />
+    <link rel="shortcut icon" href="./images/kbdev.jpg">
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/transition-animations.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/modernizr.custom.js"></script>
+    
+  </head>
+
+  <body>
+    <!-- Loading animation -->
+    <div class="preloader">
+      <div class="preloader-animation">
+        <div class="dot1"></div>
+        <div class="dot2"></div>
+      </div>
+    </div>
+    <!-- /Loading animation -->
+
+    <div id="page" class="page">
+      <!-- Header -->
+      <header id="site_header" class="header mobile-menu-hide header-left">
+        <div class="my-photo">
+          <div width="130px" height="130" alt="profile-image"></div>
+           <!--<img src="images/kbdev.jpg" alt="imagem">-->
+          <div class="mask"></div>
+        </div>
+
+        <div class="site-title-block">
+          <h1 class="site-title title-design1"><span class="k">K</span><span class="b">B</span></h1>
+          <p class="site-description">Web Developer</p>
+        </div>
+
+        <!-- Navigation & Social buttons -->
+        <div class="site-nav">
+          <!-- Main menu -->
+          <ul id="nav" class="site-main-menu">
+            <!-- About Me Subpage link -->
+            <li>
+              <a class="pt-trigger" href="#home" data-animation="58" data-goto="1">Home</a><!-- href value = data-id without # of .pt-page. Data-goto is the number of section -->
+            </li>
+            <!-- /About Me Subpage link -->
+            <!-- About Me Subpage link -->
+            <li>
+              <a class="pt-trigger" href="#about_me" data-animation="59" data-goto="2">Sobre me</a>
+            </li>
+            <!-- /About Me Subpage link -->
+            <li>
+              <a class="pt-trigger" href="#resume" data-animation="60" data-goto="3">Habilidades</a>
+            </li>
+            <li>
+              <a class="pt-trigger" href="#portfolio" data-animation="61" data-goto="4">Portfolio</a>
+            </li>
+            <!--<li>
+              <a class="pt-trigger" href="#blog" data-animation="58" data-goto="5">Blog</a>
+            </li>-->
+            <!--<li>
+              <a class="pt-trigger" href="#contact" data-animation="59" data-goto="6">Contact</a>
+            </li>-->
+          </ul>
+          <!-- /Main menu -->
+
+          <!-- Social buttons -->
+         <!--<ul class="social-links">
+            <li>
+              <a class="tip social-button fb" href="#" title="Facebook"><i class="fa fa-facebook"></i></a>
+            </li>
+            <li>
+              <a class="tip social-button insta" href="#" title="Instagram"><i class="fa fa-instagram"></i></a>
+            </li> 
+            <li>
+              <a class="tip social-button git" href="https://github.com/kelven939" title="Github"><i class="fa fa-github"></i></a>
+            </li>
+            <li>
+              <a class="tip social-button linkedin" href="#" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+            </li>
+          </ul>-->
+          <!-- /Social buttons -->
+        </div>
+        <!-- Navigation & Social buttons -->
+      </header>
+      <!-- /Header -->
+
+      <!-- Mobile Header -->
+      <div class="mobile-header mobile-visible">
+        <div class="mobile-logo-container">
+          <div class="mobile-site-title"><h3 class="title-design logo"><span class="k">K</span><span class="b">B</span></h3></div>
+        </div>
+
+        <a class="menu-toggle mobile-visible">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      <!-- /Mobile Header -->
+
+      <!-- Main Content -->
+      <div id="main" class="site-main">
+        <!-- Page changer wrapper -->
+        <div class="pt-wrapper">
+          <!-- Subpages -->
+          <div class="subpages">
+
+            <!-- Home Subpage -->
+            <section class="pt-page pt-page-1 section-with-bg section-paddings-0" style="background-image: url(images/kbdev.jpg);" data-id="home">
+              <div class="home-page-block-bg">
+                <div class="mask"></div>
+              </div>
+              <div class="home-page-block">
+                <div class="v-align">
+                  <h2>Kelven Bulha</h2>
+                  <div id="rotate" class="text-rotate">
+                    <div>
+                      <p class="home-page-description">web Development</p>
+                    </div>
+                    <div>
+                      <p class="home-page-description">Desenvolvedor de web sites</p>
+                    </div>
+                    <div>
+                      <p class="home-page-description">Desenvolvedor de sistemas web</p>
+                    </div>
+                  </div>
+
+                  <div class="block end" style="text-align: center">
+                    <ul class="info-list">
+                      <li>
+                        <span class="title">Morada :</span><span class="value">Mozambique, Sofala, Beira</span>
+                      </li>
+                      <li>
+                        <!-- Trying to give robots a hard time -->
+                        <span class="title">
+                          <span>E</span>-<span>m</span><span>ail</span> <span>:</span>
+                        </span>
+                        <span class="value">
+                          <span>
+                            <h5><a href="mailto:kelvenbrunocarloslopesb@gmail.com">
+                              kelvenbrunocarloslopesb@gmail.com
+                            </a></h5>
+                          </span>
+                        </span>
+                      </li>
+                      <li><span class="title">Freelance :</span><span class="value available">Avaliado pela freela.com</span></li>
+                    </ul>
+                  </div>
+                  <ul class="social-links">
+                    <li>
+                      <a class="tip social-button fb" href="https://facebook.com/kelveneinsteineinstein" title="Facebook"><i class="fa fa-facebook"></i></a>
+                    </li>
+                    <li>
+                      <a class="tip social-button insta" href="https://Instagram.com/kelvenbulha" title="Instagram"><i class="fa fa-instagram"></i></a>
+                    </li> 
+                    <li>
+                      <a class="tip social-button git" href="https://github.com/kelven939" title="Github"><i class="fa fa-github"></i></a>
+                    </li>
+                    <li>
+                      <a class="tip social-button linkedin" href="#" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+            </section>
+            <!-- End of Home Subpage -->
+
+            <!-- About Me Subpage -->
+            <section class="pt-page pt-page-2" data-id="about_me">
+              <div class="section-title-block">
+                <h2 class="section-title">Sobre me</h2>
+                <h5 class="section-description">Desenvolvedor de web sites e explicador</h5>
+              </div>
+
+              <div class="row">
+                <div class="col-sm-12 col-md-9 subpage-block">
+                  <div class="general-info">
+                    <h3>Mais sobre me</h3>
+                    Ola, chamo-me Kelven Bruno Carlos Lopes Bulha, sou estudante no curso de Engenharia Informatica. Aventuro-me
+                    por hacking e desensevolvimento web, desenvolvo qualquer tipo de sistema web. Projectos pessoais ou empresarias.
+                    <br/><br/>
+                    <h3>Data de nascimento:</h3>20/05/2001
+                    <br/><br/>
+                    <h3>Hobbys:</h3>
+                    Nos meus momentos livres, gosto de ler; programar; jogar e ouvir musicas.
+                    <br/>
+                    A seriedade gira em torno da minha pessoa no que concerne ao desenvolvimento de trabalhos dos clientes.
+                    <br/><br/>
+
+                    Para trabalhos, pode puxa para o chat nas seguintes plataforma:
+                    <br/><br/>
+
+                    <div class="section-title-block">
+                      <h2 class="section-title">Contactos</h2>
+                    </div>
+      
+                    <div class="row">
+                      <div class="col-sm-6 col-md-6 subpage-block">
+                        <div class="contact-info-block">
+                          <div class="ci-icon">
+                            <i class="pe-7s-icon pe-7s-mail"></i>
+                          </div>
+                          <div class="ci-text">
+                            <h5><a href="mailto:kelvenbrunocarloslopesb@gmail.com">
+                              kelvenbrunocarloslopesb@gmail.com
+                            </a></h5>
+                          </div>
+                        </div>
+                        <div class="contact-info-block">
+                          <div class="ci-icon">
+                            <i class="pe-7s-icon pe-7s-comment"></i>
+                          </div>
+                          <div class="ci-text">
+                            <h5><a href="#">Linkedin</a></h5>
+                          </div>
+                        </div>
+                        <div class="contact-info-block">
+                          <div class="ci-icon">
+                            <i class="pe-7s-icon pe-7s-comment"></i>
+                          </div>
+                          <div class="ci-text">
+                            <h5><a href="https://github.com/kelven939">Github</a></h5>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </section>
+            <!-- End of About Me Subpage -->
+
+            <!-- Resume Subpage -->
+            <section class="pt-page pt-page-3" data-id="resume">
+              <div class="section-title-block">
+                <h2 class="section-title">Minhas habilidades</h2>
+              </div>
+
+              <div class="row">
+                <div class="col-sm-6 col-md-4 subpage-block">
+                  
+                  <div class="sec trab">  
+                    <div class="block-title">
+                      <h3>Experiencia</h3>
+                    </div>
+                    <div class="timeline">
+                      <!-- Single event -->
+                      <div class="timeline-event te-primary">
+                        <h5 class="event-date">2020 - Presente</h5>
+                        <h4 class="event-name">Web Development</h4>
+                        <span class="event-description"></span>
+                      </div>
+
+                    </div>
+                  </div>
+
+                </div>
+                <div class="col-sm-6 col-md-4 col-md-push-2 col-sm-push-2 subpage-block">
+                  <div class="block-title">
+                    <h3>Web Development</h3>
+                  </div>
+                  <div class="skills-info">            
+                    <h4>HTML, CSS e JavaScript</h4>                               
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-9"></div>
+                    </div>
+
+                    <!--<h4>[ Bootstrap, MaterialUI, MaterializeCSS ]</h4>                               
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-8"></div>
+                    </div>-->
+
+                    <h4>JQuery</h4>
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-7"></div>
+                    </div>
+
+                    <h4>NodeJS</h4>
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-9"></div>
+                    </div>
+
+                    <h4>ReactJS</h4>
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-8"></div>
+                    </div> 
+
+                  </div>
+                  <div class="block-title">
+                    <h3>Programming Languages</h3>
+                  </div>
+                  <div class="skills-info">
+                    <!--<h4>Java</h4>
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-8"></div>
+                    </div>-->
+
+                    <h4>JavaScript</h4>                               
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-9"></div>
+                    </div>
+
+                    <!--<h4>C++</h4>
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-3"></div>
+                    </div>-->
+
+                    <h4>PHP</h4>
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-5"></div>
+                    </div>
+                  </div>
+                  <div class="block-title">
+                    <h3>Databases</h3>
+                  </div>
+                  <div class="skills-info">
+                    <h4>MySQL</h4>
+                      <div class="skill-container">
+                      <div class="skill-percentage skill-7"></div>
+                    </div>
+                    <h4>MariaDB</h4>                               
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-6"></div>
+                    </div>
+                  </div>
+                  <div class="skills-info">
+                    <h4>Git</h4>
+                      <div class="skill-container">
+                      <div class="skill-percentage skill-8"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--<div class="row">
+                <div class="col-sm-12 col-md-12">
+                  <div class="download-cv-block">
+                    <a class="button" target="_blank" href="#">Download CV</a>
+                  </div>
+                </div>
+              </div>-->
+            </section>
+            <!-- End Resume Subpage -->
+
+
+            <!-- Portfolio Subpage -->
+            <section class="pt-page pt-page-4" data-id="portfolio">
+
+              
+                <!-- Portfolio Grid -->
+                <div id="portfolio_grid" class="portfolio-grid portfolio-masonry masonry-grid-3">
+
+                  <figure class="item">
+                    <a class="ajax-page-load" title="Web site da Igreja" target="_blank" href="https://iasd-site.vercel.app">
+                      <img src="images/projectos/mobile2.png" alt="imagem">
+                      <div>
+                    </a>
+                  </figure>
+
+                  <figure class="item">
+                    <a class="ajax-page-load" title="Web site da Igreja" target="_blank" href="https://iasd-site.vercel.app">
+                      <img src="images/projectos/mobile1.png" alt="imagem">
+                    </a>
+                  </figure>
+
+                  <figure class="item">
+                    <a class="ajax-page-load" title="Play de musica" href="./project/PlayMusic/index.html">
+                      <img src="images/projectos/playmusic.png" alt="imagem">
+                    </a>
+                  </figure>
+
+                  <figure class="item">
+                    <a class="ajax-page-load" title="Jogo dos 8" href="./project/JOGO_8/index-2.html">
+                      <img src="images/projectos/jogo8.png" alt="imagem">
+                    </a>
+                  </figure>
+
+                </div>
+                <!-- /Portfolio Grid -->
+
+              </div>
+              <!-- /Portfolio Content -->
+
+            </section>
+            <!-- /Portfolio Subpage -->
+
+            <!-- Blog Subpage -->
+            <section class="pt-page pt-page-5" data-id="blog">
+              
+            </section>
+            <!-- End Blog Subpage -->
+
+            <!-- Contact Subpage -->
+            <!--<section class="pt-page pt-page-6" data-id="contact">
+              <div class="section-title-block">
+                <h2 class="section-title">Contact</h2>
+              </div>
+
+              <div class="row">
+                <div class="col-sm-6 col-md-6 subpage-block">
+                  <div class="block-title">
+                    <h3>Para qualquer trabalho, puxa para chat</h3>
+                  </div>
+                  <div class="contact-info-block">
+                    <div class="ci-icon">
+                      <i class="pe-7s-icon pe-7s-mail"></i>
+                    </div>
+                    <div class="ci-text">
+                      <h5>kelvenbrunocarloslopesb@gmail.com</h5>
+                    </div>
+                  </div>
+                  <div class="contact-info-block">
+                    <div class="ci-icon">
+                      <i class="pe-7s-icon pe-7s-comment"></i>
+                    </div>
+                    <div class="ci-text">
+                      <h5><a href="#">Linkedin</a></h5>
+                    </div>
+                  </div>
+                  <div class="contact-info-block">
+                    <div class="ci-icon">
+                      <i class="pe-7s-icon pe-7s-comment"></i>
+                    </div>
+                    <div class="ci-text">
+                      <h5><a href="https://github.com/kelven939">Github</a></h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>-->
+            <!-- End Contact Subpage -->
+
+          </div>
+        </div>
+        <!-- /Page changer wrapper -->
+      </div>
+      <!-- /Main Content -->
+    </div>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113452780-1"></script>
+    <script type="text/javascript">
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-113452780-1');
+    </script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/page-transition.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/validator.js"></script>
+    <script src="js/jquery.shuffle.min.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.hoverdir.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/conway.js"></script>
+
+  </body>
+</html>

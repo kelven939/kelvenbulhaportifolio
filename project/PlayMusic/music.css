@@ -1,0 +1,108 @@
+/*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aqua;
+    border-radius: 15px;
+}
+.video{
+    width: 535px;
+    display: block;
+}
+.button{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 285px;
+}
+button{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 15em;
+}*/
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #333;
+    color: #ddd;
+}
+img{
+    width: 300px;
+    height: 300px;
+}
+.descricao{
+    width: 300px;
+}
+h2{
+    margin-bottom: 5px;
+}
+.duracao{
+    width: 300px;
+    margin-top: 25px;
+}
+.barra{
+    width: 300px;
+    height: 6px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+progress{
+    height: 6px;
+    width: 0;
+    background-color: #333;
+}
+.ponto{
+    width: 20px;
+    height: 20px;
+    background-color: #eee;
+    border-radius: 50%;
+    margin-left: -10px;
+}
+.tempo{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
+/*.playB, .pauseB{
+    font-size: 25px;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color: #ddd;
+    cursor: pointer;
+}*/
+.voltarB, .avancarB, .repet{
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color: #ddd;
+    cursor: pointer;
+}
+.pauseB{
+    display: none;
+    cursor: pointer;
+}
+.player{
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+}
