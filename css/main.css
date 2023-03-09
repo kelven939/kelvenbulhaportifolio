@@ -479,7 +479,7 @@ textarea.form-control, textarea.form-control:focus {
 .my-photo div:first-child{
 margin: auto;
     border-radius: 5cm;
-    background-image: url("/images/IMG_20221231_124016_387.jpg");
+    background-image: url("/images/kbdev.jpg");
     width: 130px;
     height: 130px;
     background-size: cover;
