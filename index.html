@@ -8,7 +8,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <meta name="description" content="Kelven Bulha - Portfolio" />
     <link rel="shortcut icon" href="./images/kbdev.jpg">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
 
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/normalize.css">
@@ -460,7 +459,24 @@
       gtag('js', new Date());
       gtag('config', 'UA-113452780-1');
     </script>
-    <script src="./js/donwloadpdf.js"></script>
+    <script src="jspdf.umd.min.js"></script>
+    <script>
+      // Função para converter o site em PDF e fazer o download
+      function convertToPDF() {
+        const pdf = new jsPDF();
+        const element = document.getElementById('page');
+    
+        pdf.html(element, {
+          callback: function () {
+            pdf.save('portfolio.pdf');
+          },
+        });
+      }
+    
+      // Adicione um evento de clique ao botão de download
+      document.getElementById('downloadButton').addEventListener('click', convertToPDF);
+    </script>
+    
     <script src="js/bootstrap.min.js"></script>
     <script src="js/page-transition.js"></script>
     <script src="js/imagesloaded.pkgd.min.js"></script>
