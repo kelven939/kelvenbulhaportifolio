@@ -9,5 +9,5 @@ downloadButton.addEventListener('click', () => {
         html2canvas: { scale: 2 },
         jsPDF: {unit: "mm", format: "a4", orientation: "portrait"},
     };
-    html2pdf().set(options).form(pdfgenarar).save();
+    html2pdf().set(options).from(pdfgenarar).save();
 });
