@@ -1,11 +1,13 @@
-window.onload = function() {
-    var downloadButton = document.getElementById('downloadButton');
-    downloadButton.addEventListener('click', function() {
-      var doc = new jsPDF();
-      doc.html(document.body, {
-        callback: function(pdf) {
-          pdf.save('portfolio.pdf');
-        }
-      });
-    });
-  };  
+const downloadButton = document.querySelector('#downloadButton');
+downloadButton.addEventListener('click', () => {
+
+    const pdfgenarar = document.querySelector('.pdfgenarar');
+
+    const options = {
+        margin: [10, 10, 10, 10],
+        filename: "protfolio.pdf",
+        html2canvas: {scale: 2},
+        jsPDF: {unt: "mm", format: "a4", orientantion: "portrait"}
+    }
+    html2pdf().set(options).form(content).save();
+});
