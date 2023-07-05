@@ -14,7 +14,7 @@ downloadButton.addEventListener('click', () => {
 
 
 const downloadButton1 = document.querySelector('#downloadButton1');
-downloadButton.addEventListener('click', () => {
+downloadButton1.addEventListener('click', () => {
 
     const sobreme = document.querySelector('.sobreme');
 
