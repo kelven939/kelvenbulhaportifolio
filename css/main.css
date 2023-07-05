@@ -544,7 +544,7 @@ ul.social-links li .fb:hover {
 }
 ul.social-links li .insta:hover {
   color: #fff;
-  background-color: #c9302c;
+  background: linear-gradient(45deg, #F58529, #DD2A7B, #8134AF, #515BD4, #1E90FF) !important;
 }
 ul.social-links li .git:hover {
   color: #fff;
