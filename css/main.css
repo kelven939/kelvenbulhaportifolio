@@ -2109,3 +2109,26 @@ blockquote {
     font-size: 16px;
   }
 }
+
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.portfolio-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.portfolio-grid .card {
+  width: calc(33.33% - 20px); /* Ajuste a largura conforme necessário */
+  margin-right: 20px;
+}
+
+.portfolio-grid .card:last-child {
+  margin-right: 0;
+}
