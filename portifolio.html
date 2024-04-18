@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <style>
+        /* Estilos personalizados para o portfólio */
+        #portfolio_grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+        }
+        .card {
+            background-color: #f2f2f2;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .card a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        .card img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <section id="portfolio">
+        <div id="portfolio_grid">
+            <div class="card">
+                <a href="https://kingdomservices.vercel.app/" target="_blank">Web site da Igreja</a>
+            </div>
+
+            <div class="card">
+                <a href="https://ingles-com-jose.vercel.app/" target="_blank">Web site da Igreja</a>
+            </div>
+
+            <div class="card">
+                <a href="https://iasd-site.vercel.app" target="_blank">
+                    <img src="https://via.placeholder.com/150" alt="placeholder">
+                </a>
+            </div>
+
+            <div class="card">
+                <a href="https://iasd-site.vercel.app" target="_blank">
+                    <img src="https://via.placeholder.com/150" alt="placeholder">
+                </a>
+            </div>
+
+            <div class="card">
+                <a href="./project/PlayMusic/index.html">Play de musica</a>
+            </div>
+
+            <div class="card">
+                <a href="./project/JOGO_8/index-2.html">Jogo dos 8</a>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
