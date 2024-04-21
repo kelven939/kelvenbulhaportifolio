@@ -2126,3 +2126,24 @@ blockquote {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  margin: 10px;
+  width: 200px;
+  display: inline-block;
+}
+
+.card i {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 100%;
+  }
+}
